@@ -1,0 +1,25 @@
+table { 
+	border-collapse: 	collapse; 
+}
+table, tr, td, th { 
+	padding: 			10px; 
+	border:				solid 1px black;
+}
+tr {
+	vertical-align: 	top;
+}
+th {
+	background-color: 	#00ff00;
+	color: 				black;
+}
+tr:nth-child(odd)		{ background-color: #c3f54d; }
+tr:nth-child(even)		{ background-color: rgb(255, 255, 255) }
+
+tr {
+	background-color: rgb(176, 230, 194);
+	transition: background-color .5s;
+  }
+  
+  tr:hover {
+	background-color: rgb(65, 223, 118);
+  }
